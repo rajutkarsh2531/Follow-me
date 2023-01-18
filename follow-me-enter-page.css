@@ -1,0 +1,107 @@
+ body{
+    margin:0px;
+}
+
+
+.intro{
+    position:relative;
+    background-color:#f58383;
+    height:65vh;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+    border-radius: 25px;
+     
+}
+
+.intro::before{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background-image:url("images/meet-me.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity:0.05
+}
+
+.content{
+    margin-bottom:20px;
+}
+
+span{
+    color:#eec6c6
+}
+
+h1{
+    text-align:center;
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Baloo Tamma 2', cursive;
+    color:white;
+    font-size:20vh;
+    text-shadow: 1px 1px 1px #b40505;
+    padding-top:20vh;
+    height:20vh;
+}
+
+h2{
+    text-align:center;
+    padding-top:5vh;
+    color:white;
+    text-shadow:1px 1px 1px white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+.click{
+    height:30px;
+    width:300px;
+    border-radius:15px;
+    border:1px solid #f58383;
+}
+
+.box{
+
+    text-align:center;
+    padding-bottom:100px;
+}
+
+.click{
+    height:45px;
+    width:300px;
+    border-radius:30px;
+    border:1px solid #f58383;
+    margin-top:100px;
+    text-align:center;
+    font-size:large;
+    font-weight:300;
+    font-family: 'Raleway', sans-serif;
+    background-color:#f58383;
+    color:white;
+}
+
+.click:hover{
+    height:50px;
+    width:320px;
+    transition-duration: 0.7s;
+    border:0px #f58383;
+    background-color:white;
+    color:#f58383;
+
+}
+
+i{
+     font-size:25px;;
+     padding-left:10px;
+}
+i:hover{
+    font-size:30px;
+    transition-duration:0.2s;
+    color:#f58383;
+}
+
+a{
+    text-decoration:none;
+}

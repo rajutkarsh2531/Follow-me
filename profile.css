@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Raleway', sans-serif;;
+color:#f38583;
+font-weight:300;
+transition-duration:0.5s;
+}
+
+
+.text{
+    text-align:center;
+    margin-top:100px;
+    font-size:70px;
+
+}
+
+.box{
+    border:1px solid #f38583;
+    width:900px;
+    height:450px;
+    margin-left:280px;;
+    margin-top:50px;
+    border-radius:30px;
+}
+
+.image{
+    width:200px;
+    height:200px;
+    border:0px solid #f38583;
+    margin-left:50px;
+    margin-top:100px;
+}
+
+.image-name{
+    border:0px solid #f38583;
+    width:150px;
+    height:35px;
+    margin-left:50px;
+    margin-top:50px;
+}
+.image-name input{
+    margin-left:40px;
+}
+
+h1{
+    margin-left:500px;
+    margin-top:0px;
+    position:absolute;
+}
+
+.user-input{
+    margin-top:40px;
+    border:1px solid #f38583;
+    width:300px;
+    height:40px;
+    margin-left:410px;
+    border-radius:30px;
+    margin-top:45px;
+    text-align:center;
+}
+
+.user-input:hover{
+    transition-duration:0.3s;
+    width:320px;
+    height:45px;
+}
+
+.gender{
+    display:flex;
+    margin-left:450px;
+    margin-top:50px;
+}
+
+.gender h2{
+    margin-left:30px;
+}
+
+.input{
+    margin-left:450px;
+    margin-top:10px;
+    display:flex;
+}
+
+.input input{
+    margin-left:55px;
+    border:1px solid #e94845;
+    width:50px;
+    height:50px;
+    border-radius: 100px;
+}
+
+img{
+    position:absolute;
+    margin-left:20px;
+    margin-top:20px;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border-top:0.5px solid #ec7573;
+    border-left:0.5px solid #d78482;
+    border-right:0.5px solid #d37a79;
+}
+
+.inside{
+    width:800px;
+    height:400px;
+    margin:auto;
+    border-top:1px solid #e94845;
+    border-right:1px solid #e94845;
+    border-bottom:1px solid #e94845;
+    border-left:0px solid #e94845;
+    border-radius:30px;
+    margin-top:25px;
+    margin-left:5px
+}
+
+.circle{
+    width:50px;
+    height:50px;
+    border-radius:100px;
+    border:1px solid #d37a79;
+    position:absolute;
+    margin-left:1100px;
+    margin-top:280px;
+    margin-bottom:100px;
+}
+
+button{
+    width:80px;
+    height:80px;
+    border-radius:100px;
+    border:1px solid #d37a79;
+    position:absolute;
+    margin-left:1300px;
+    margin-top:260px;
+    margin-bottom:100px;
+    background-color:#f38583;
+    color:white;
+}
+
+button:hover{
+    width:90px;
+    transition-duration:0.5s;
+    height:90px;
+    border-radius:100px;
+    border:0px solid #d37a79;
+    position:absolute;
+    margin-left:1300px;
+    margin-top:280px;
+    margin-bottom:100px;
+    background-color:white;
+    color:#f38583;
+}
